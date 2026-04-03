@@ -1,0 +1,137 @@
+{
+  "defaultAverageTariffRate": 0.15,
+  "household": [
+    {
+      "id": "food_beverages",
+      "label": "Food & beverages",
+      "description": "Tariff-exposed: packaged and processed foods with imported inputs, beverages, and some imported produce. Less exposed: mostly domestic unprocessed staples; dining labor and non-imported services are outside this goods-focused estimate.",
+      "tariffPassThrough": 0.12,
+      "annualSpend": 8200
+    },
+    {
+      "id": "apparel",
+      "label": "Apparel",
+      "description": "Tariff-exposed: clothing, footwear, and accessories with imported content. Less exposed: alterations, rentals, and secondhand purchases with minimal new-import value.",
+      "tariffPassThrough": 0.32,
+      "annualSpend": 1700
+    },
+    {
+      "id": "electronics",
+      "label": "Electronics",
+      "description": "Tariff-exposed: devices, accessories, and imported components in finished goods. Less exposed: pure software subscriptions and domestically sourced services with no hardware spend.",
+      "tariffPassThrough": 0.28,
+      "annualSpend": 2400
+    },
+    {
+      "id": "vehicles_parts",
+      "label": "Vehicles & parts",
+      "description": "Tariff-exposed: vehicles, tires, and parts with global supply chains. Less exposed: insurance, financing, and purely local labor-only repairs with no imported parts.",
+      "tariffPassThrough": 0.2,
+      "annualSpend": 4800
+    },
+    {
+      "id": "furniture",
+      "label": "Furniture",
+      "description": "Tariff-exposed: imported and import-heavy furniture and mattresses. Less exposed: used furniture and custom local woodwork with domestic materials only.",
+      "tariffPassThrough": 0.22,
+      "annualSpend": 1900
+    },
+    {
+      "id": "household_appliances",
+      "label": "Household appliances",
+      "description": "Tariff-exposed: large and small appliances and replacement parts crossing borders. Less exposed: installation labor only (no product purchase) and extended warranties priced separately as services.",
+      "tariffPassThrough": 0.26,
+      "annualSpend": 1100
+    },
+    {
+      "id": "personal_care",
+      "label": "Personal care",
+      "description": "Tariff-exposed: OTC, cosmetics, and grooming products with imported materials or finished imports. Less exposed: purely local salon labor with no retail product spend in this category.",
+      "tariffPassThrough": 0.14,
+      "annualSpend": 750
+    },
+    {
+      "id": "toys",
+      "label": "Toys",
+      "description": "Tariff-exposed: toys, games, and collectibles with imported manufacturing. Less exposed: digital-only games and local experiences with no physical goods purchase.",
+      "tariffPassThrough": 0.3,
+      "annualSpend": 550
+    },
+    {
+      "id": "home_improvement",
+      "label": "Home improvement",
+      "description": "Tariff-exposed: tools, hardware, paint, lumber, and project materials with import content. Less exposed: contractor labor billed separately with no materials purchased by you.",
+      "tariffPassThrough": 0.24,
+      "annualSpend": 3200
+    },
+    {
+      "id": "recreation",
+      "label": "Recreation",
+      "description": "Tariff-exposed: imported sporting goods, outdoor gear, and physical hobby products (including electronics in this basket). Less exposed: gym memberships, lessons, and other services with no goods spend.",
+      "tariffPassThrough": 0.27,
+      "annualSpend": 2800
+    }
+  ],
+  "industry": [
+    {
+      "id": "agriculture",
+      "label": "Agriculture & food processing",
+      "description": "Crop and animal inputs, fertilizer, and packaged food manufacturing. Tariff-exposed: imported inputs (e.g., fertilizer, equipment parts) and trade-linked commodity costs.",
+      "marginImpact": -0.04
+    },
+    {
+      "id": "textiles",
+      "label": "Textiles & apparel manufacturing",
+      "description": "Yarn, fabric, cut-and-sew, and branded apparel. Tariff-exposed: yarn and fabric imports, finished apparel sourcing, and retaliatory or input tariffs on fibers.",
+      "marginImpact": -0.12
+    },
+    {
+      "id": "automotive",
+      "label": "Automotive & parts",
+      "description": "OEM assembly, tier suppliers, and aftermarket. Tariff-exposed: cross-border parts flows, steel/aluminum content, and country-specific auto tariffs.",
+      "marginImpact": -0.09
+    },
+    {
+      "id": "electronics_mfg",
+      "label": "Electronics manufacturing",
+      "description": "Devices, boards, assembly, and test. High exposure due to reliance on Chinese components, semiconductors, and finished goods imports.",
+      "marginImpact": -0.11
+    },
+    {
+      "id": "machinery",
+      "label": "Machinery & equipment",
+      "description": "Industrial machinery, tools, and capital equipment. Tariff-exposed: imported subsystems, precision components, and metals subject to Section 232 or country measures.",
+      "marginImpact": -0.07
+    },
+    {
+      "id": "chemicals",
+      "label": "Chemicals & materials",
+      "description": "Commodity and specialty chemicals, plastics, and inputs. Tariff-exposed: feedstock and specialty imports, plus energy-linked input volatility passed through trade rules.",
+      "marginImpact": -0.06
+    },
+    {
+      "id": "construction",
+      "label": "Construction & building products",
+      "description": "Lumber, steel, fixtures, and engineered materials. Tariff-exposed: lumber, steel, and imported fixtures where domestic capacity does not fully substitute.",
+      "marginImpact": -0.05
+    },
+    {
+      "id": "retail_wholesale",
+      "label": "Retail & wholesale trade",
+      "description": "Distribution and merchandising of imported goods. Tariff-exposed: landed cost of imports dominates COGS; margins compress when pass-through lags tariff hikes.",
+      "marginImpact": -0.08
+    },
+    {
+      "id": "transport_logistics",
+      "label": "Transportation & logistics",
+      "description": "Freight, warehousing, and port-related activity. Tariff-exposed: import volumes, equipment with imported content, and fuel or chassis tied to trade policy indirectly.",
+      "marginImpact": -0.05
+    },
+    {
+      "id": "other_services",
+      "label": "Other services & mixed",
+      "description": "Services and sectors with limited direct tariff exposure. Tariff-exposed only where imported intermediates or trade-linked demand still hit revenue or costs.",
+      "marginImpact": -0.02
+    }
+  ]
+}
