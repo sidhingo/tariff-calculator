@@ -1,4 +1,5 @@
 import { useMemo, useState, useCallback } from 'react'
+import { Analytics } from '@vercel/analytics/react'
 import tariffData from './data/tariffData.json'
 import HouseholdCalculator from './components/HouseholdCalculator.jsx'
 import IndustryCalculator from './components/IndustryCalculator.jsx'
@@ -155,6 +156,7 @@ function App() {
           conditions.
         </p>
       </footer>
+      <Analytics />
     </div>
   )
 }
