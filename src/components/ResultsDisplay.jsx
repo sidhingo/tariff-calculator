@@ -37,9 +37,9 @@ export default function ResultsDisplay({
         : `+${impactPp.toFixed(1)}`
     let text
     if (isHousehold) {
-      text = `My estimated tariff exposure: ${money.format(totalRounded)}/year at ${ratePct}% average tariff rate (Tariff Impact Calculator).`
+      text = `My estimated tariff exposure: ${money.format(totalRounded)}/year at ${ratePct}% average tariff rate (Tariff Impact Calculator — https://tariff-impact-calculator.vercel.app)`
     } else {
-      text = `Estimated margin impact for ${industrySectorLabel}: ${impactStr} percentage points, post-shock margin ${marginAfterPct.toFixed(2)}% (Tariff Impact Calculator).`
+      text = `Estimated margin impact for ${industrySectorLabel}: ${impactStr} percentage points, post-shock margin ${marginAfterPct.toFixed(2)}% (Tariff Impact Calculator — https://tariff-impact-calculator.vercel.app)`
     }
     try {
       await navigator.clipboard.writeText(text)
