@@ -1,16 +1,30 @@
-# React + Vite
+# Tariff Impact Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A two-mode calculator that converts US tariff percentages into real dollar and margin impacts.
 
-Currently, two official plugins are available:
+**Live tool:** https://tariff-impact-calculator.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## What it does
 
-## React Compiler
+**Household mode** — Enter your annual spending across 10 categories. The calculator applies category-level pass-through rates and your assumed average tariff rate to estimate your total annual tariff exposure in dollars.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Industry mode** — Select your sector and enter your current operating margin. The calculator applies sector-level tariff pressure estimates to show your illustrative post-shock margin.
 
-## Expanding the ESLint configuration
+## Data sources
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Pass-through rates based on Federal Reserve Bank of New York Liberty Street Economics research on tariff incidence and retail prices
+- Sector margin pressure estimates based on published tariff incidence research
+- Benchmark household exposure from Tax Foundation tariff and trade analysis
+- Default average tariff rate reflects estimated 2025 US import-weighted average
+
+## Methodology note
+
+All pass-through rates and sector margin impacts are illustrative defaults for modeling purposes — not forecasts. Actual impact varies by product, supplier contract, and market conditions. Replace defaults with your own assumptions as needed.
+
+## Tech
+
+Built with Vite + React. Static JSON data, no backend, no database.
+
+## Author
+
+Siddharth Hingorani · [LinkedIn](https://linkedin.com/in/siddharth-hingorani)
