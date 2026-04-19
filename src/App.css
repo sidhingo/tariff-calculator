@@ -689,7 +689,7 @@ background: #ffffff;
 .app-footer__disclaimer {
   margin: 0;
   color: var(--color-muted);
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 400;
   line-height: 1.6;
 }

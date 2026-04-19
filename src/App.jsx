@@ -154,6 +154,12 @@ function App() {
           research and will vary by product, supplier contract, and market
           conditions.
         </p>
+        <p className="app-footer__credit">
+    Built by{' '}
+    <a href="https://github.com/sidhingo" target="_blank" rel="noreferrer">
+      sidhingo
+    </a>
+  </p>
       </footer>
     </div>
   )
