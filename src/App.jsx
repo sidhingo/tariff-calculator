@@ -61,9 +61,7 @@ function App() {
           <div className="app-header__brand">
             <h1 className="app-header__title">Tariff Impact Calculator</h1>
             <p className="app-header__tagline">
-              Tariffs are reported as percentages. This tool converts them into
-              dollars — for your household budget and your industry margins.
-              Adjust the inputs to see your estimated exposure.
+            'Tariffs are reported as percentages. This tool converts them into dollars for your household budget and your industry margins. As US tariff policy is actively evolving, use the rate slider to model different scenarios.'
             </p>
             <p className="app-header__meta">United States · 2025 tariff policy</p>
           </div>
@@ -146,7 +144,7 @@ function App() {
       </div>
 
       <footer className="app-footer">
-        <p className="app-footer__date">Data last reviewed: April 2025</p>
+        <p className="app-footer__date">Data last reviewed: June 2026</p>
         <p className="app-footer__disclaimer">
           This calculator provides illustrative estimates only and does not
           constitute financial, economic, or legal advice. Tariff pass-through
