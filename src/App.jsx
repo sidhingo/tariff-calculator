@@ -63,7 +63,7 @@ function App() {
             <p className="app-header__tagline">
             'Tariffs are reported as percentages. This tool converts them into dollars for your household budget and your industry margins. As US tariff policy is actively evolving, use the rate slider to model different scenarios.'
             </p>
-            <p className="app-header__meta">United States · 2025 tariff policy</p>
+            <p className="app-header__meta">United States · 2026 tariff policy</p>
           </div>
           <div
             className="app-tabs"
